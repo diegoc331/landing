@@ -1,0 +1,177 @@
+#header {
+  background: #feb81c;
+  height: 90px;
+  border: 1px dotted;
+  border-radius: 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  align-items: center;
+}
+
+.nav-link {
+  display: inline-block;
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.nav-ul {
+  display: flex;
+  padding: 1px;
+}
+
+#img-header {
+  height: 90px;
+  border-radius: 15px;
+}
+
+a:link {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar {
+  display: flex;
+  float: right;
+  margin: 10px;
+}
+
+body {
+  background: #c5c7c4;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 5px;
+}
+
+iframe {
+  width:100%;
+  max-width:640px;
+  flex-direction: column;
+}
+
+div {
+  text-align: center;
+}
+
+#campo-correo {
+  text-align: center;
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+  color: black;
+}
+
+h3 {
+  font-family: "ZCOOL QingKe HuangYou", cursive;
+  text-align: center;
+}
+
+#eventos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 20px;
+}
+
+#gira {
+  font-family: "ZCOOL QingKe HuangYou";
+  text-align: center;
+}
+
+p {
+  font-family: "ZCOOL QingKe HuangYou";
+  text-align: justify;
+}
+
+#Noticias:hover{
+  text-align: center;
+}
+
+#discografia {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+
+#disco > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+#tbhc,
+#am,
+#sias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.nivel {
+  background-color: #feb81c;
+  color: black;
+  padding: 16px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 500;
+  diplay: flex;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+ol {
+  margin: 15px 0;
+}
+li {
+  padding: 1px 0;
+  list-style-type: none;
+  @media (max-width: 650px) {
+      flex-direction: column;
+    }
+}
+
+button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #feb81c;
+  font-weight: 700;
+}
+
+#tbhc,
+#am,
+#sias {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+    @media (max-width: 650px) {
+      margin: 0 auto;
+  }
+}
+
+footer{
+  background: black;
+  margin-top: 30px;
+  padding: 20px;
+  color: #FFFFFF;
+  text-align: left;
+}
